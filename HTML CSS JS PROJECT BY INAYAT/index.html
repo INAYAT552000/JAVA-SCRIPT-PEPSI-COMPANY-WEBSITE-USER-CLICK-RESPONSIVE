@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PEPSI</title>
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="./images/logo.png" alt="logo" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>That's what<br /><span>I like</span></h2>
+          <p>
+            Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally
+            created and developed in 1893 by Caleb Bradham and introduced as
+            Brad's Drink, it was renamed as Pepsi-Cola in 1898, and then
+            shortened to Pepsi in 1961.
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img src="./images/pepsi001.png" alt="pepsi1" class="pepsi" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./images/pepsi001.png"
+            alt="pepsi 1"
+            onclick="imgSlider('./images/pepsi001.png');changeBgColor('#0062be') "
+          />
+        </li>
+        <li>
+          <img
+            src="./images/pepsi002.png"
+            alt="pepsi 1"
+            onclick="imgSlider('./images/pepsi002.png');changeBgColor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/pepsi003.png"
+            alt="pepsi 1"
+            onclick="imgSlider('./images/pepsi003.png');changeBgColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./images/facebook.png" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/twitter.png" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/instagram.png" alt="Instagram" /></a>
+        </li>
+      </ul>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
